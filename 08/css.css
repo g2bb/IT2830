@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    text-align: center;
+}
+
+body{
+    background: #343E47;
+}
+
+.container{
+    width: 70%;
+    margin: 100px auto;
+    border: 3px solid #131B1E;
+    background: #E0ECF7;
+    padding-bottom: 50px;
+}
+
+.header{
+    width: 90%;
+    border-bottom: solid 3px #131B1E;
+    text-align: center;
+    margin: 40px auto;
+    padding-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.form{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.dropdown{
+    width: 30%;
+    margin: 10px auto;
+    display: block;
+    background: #0477bf;
+    color: #fff;
+    border: 1px solid #002B73;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.dropdown:hover, .dropdown option:hover{
+    background: #51C4FF;
+    color: #000;
+}
+
+.dropdown option{
+    width: 100%;
+    background: #0477bf;
+    color: #FFF;
+    padding: 10px;
+}
+
+.Display{
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.Values{
+    width: 70%;
+    margin: 10px auto;
+    border: 3px solid #131b1e;
+    padding-top: 40px;
+}
+
+.ValRow{
+    width: 100%;
+}
+
+.ValRow input, .ValRow button{
+    box-sizing: border-box;
+    margin: 10px 10%;
+    border: none;
+    padding: 10px;
+}
+
+.OneWide input{
+    width: 80%;
+}
+
+.TwoWide input{
+    width: 29.7%;
+}
+
+/* Pic */
+.picDiv{
+    margin: 10px auto;
+    width: 50%;
+}
+
+.showPicture{
+    display: block;
+    margin: 0 auto;
+}
+
+.picClear{
+    background: #0477bf;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+    width: 30%;
+    display: block;
+    margin: 10px auto;
+}
