@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <!--
+        name: Joe Hays
+        pawprint: JCH432
+        date: 11/5/19
+        Challenge AJAX
+    -->
+<head>
+	<title>AJAX</title>
+	<link rel="stylesheet" href="css.css">
+	<script src="js.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body onload="start()">
+    <div class="container center">
+        <h1>CS/IT 2630 Dashboard</h1>
+        <p>This service is intended to provide information relating to CS/IT 2830</p>
+        <div class="row">
+            <div class="col">
+                <p onclick="loadCA()">Current Assignment:</p>
+                <p id="CurrentAssignment"></p>
+            </div>
+            <div class="col">
+                <p onclick="loadNC()">Next Class:</p>
+                <p id="NextClass"></p>
+            </div>
+        </div>
+        <div class="row bottom">
+            <p>Office Hour Info</p>
+            <button onclick="loadOH('monday')">Monday</button>
+            <button onclick="loadOH('tuesday')">Tuesday</button>
+            <button onclick="loadOH('wednesday')">Wednesday</button>
+            <button onclick="loadOH('thursday')">Thursday</button>
+            <button onclick="loadOH('friday')">Friday</button>
+            <div id="OfficeHours"></div>
+        </div>
+    </div>
+</body>
+</html>
